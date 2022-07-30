@@ -26,7 +26,8 @@ return (
                     </h1>
                     <form 
                         name="plugin"
-                        netlify
+                        method="post"
+                        action="https://getform.io/f/17e892db-efd9-4520-9861-5dac9f961364"
                     >
                         <input type="hidden" name="form-name" value="plugin" />
                         <div className="pluginForm--details mb-10">
@@ -111,18 +112,9 @@ return (
                 </>
             }
             {service === 'theme' &&
-                <form name="contact" netlify>
-                    <input type="hidden" name="form-name" value="contact" />
-                    <p>
-                    <label>Name <input type="text" name="name" /></label>
-                    </p>
-                    <p>
-                    <label>Email <input type="email" name="email" /></label>
-                    </p>
-                    <p>
-                    <button type="submit">Send</button>
-                    </p>
-                </form>
+                <h1>
+                    Install a theme
+                </h1>
             }
         </section>
     </Layout>
