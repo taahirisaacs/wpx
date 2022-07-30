@@ -112,9 +112,17 @@ return (
                 </>
             }
             {service === 'theme' &&
-            <p>
-                Theme form goes here
-            </p>
+                <form name="contact" netlify>
+                    <p>
+                    <label>Name <input type="text" name="name" /></label>
+                    </p>
+                    <p>
+                    <label>Email <input type="email" name="email" /></label>
+                    </p>
+                    <p>
+                    <button type="submit">Send</button>
+                    </p>
+                </form>
             }
         </section>
     </Layout>
