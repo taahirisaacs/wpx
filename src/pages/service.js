@@ -24,7 +24,7 @@ return (
                     <h1 className="text-4xl font-bold mb-2 text-center mb-10">
                         Install a plugin
                     </h1>
-                    <form className="pluginForm" name="pluginForm" method="POST" data-netlify="true">
+                    <form className="pluginForm" name="plugin" netlify>
                         <div className="pluginForm--details mb-10">
                             <div className="border-b border-b-white border-opacity-40 pb-3 mb-5">
                                 <h3 className="text-md font-bold">
