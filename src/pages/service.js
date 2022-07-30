@@ -26,10 +26,11 @@ return (
                     </h1>
                     <form 
                         name="plugin"
-                        action="/thank-you/"
-                        method="POST"
+                        action="/thank-you"
+                        method="post"
                         data-netlify="true"
                     >
+                        <input type="hidden" name="form-name" value="plugin" />
                         <div className="pluginForm--details mb-10">
                             <div className="border-b border-b-white border-opacity-40 pb-3 mb-5">
                                 <h3 className="text-md font-bold">
@@ -113,6 +114,7 @@ return (
             }
             {service === 'theme' &&
                 <form name="contact" netlify>
+                    <input type="hidden" name="form-name" value="contact" />
                     <p>
                     <label>Name <input type="text" name="name" /></label>
                     </p>
