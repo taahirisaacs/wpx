@@ -19,7 +19,7 @@ const Header = ({ siteTitle }) => (
       <img
         alt="Gatsby logo"
         src={logo}
-        className="h-[20px] m-0"
+        className="h-[30px] m-0"
       />
     </Link>
     <span>

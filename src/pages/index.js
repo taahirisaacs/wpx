@@ -1,18 +1,15 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import ServiceItem from "../components/service-item"
-import * as styles from "../components/index.module.css"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <section className="banner text-center mb-20">
-      <h1 className="text-4xl font-bold mb-2">
-        We specialise in everything WordPress.
+    <section className="banner text-center mb-10 md:mb-20">
+      <h1 className="text-3xl md:text-4xl font-bold mb-2">
+        We take care of your WordPress website.
       </h1>
       <span className="text-lg">
         Select a task below, fill out the form and we will be in touch within 8 hours.
