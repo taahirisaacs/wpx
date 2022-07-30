@@ -26,8 +26,7 @@ return (
                     </h1>
                     <form 
                         name="plugin"
-                        action="/thank-you"
-                        data-netlify="true"
+                        netlify
                     >
                         <input type="hidden" name="form-name" value="plugin" />
                         <div className="pluginForm--details mb-10">
