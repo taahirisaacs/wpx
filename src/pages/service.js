@@ -27,7 +27,6 @@ return (
                     <form 
                         name="plugin"
                         action="/thank-you"
-                        method="post"
                         data-netlify="true"
                     >
                         <input type="hidden" name="form-name" value="plugin" />
